@@ -1,0 +1,156 @@
+
+ .App {
+    text-align: center;
+  }
+ .NavBar {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:3rem;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: #ecd6ab;
+  }
+  
+  .NavWrapper {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ecb954;
+  }
+  
+  .NavWrapper2 {
+    width:100%;
+    justify-content: center;
+    background-color: #ecb954;
+  }
+  .NavWrapper {
+    width:100%;
+    justify-content: center;
+    background-color: #ecb954;
+  }
+  
+  
+  
+  .home-links {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 600;
+    color: #5d7c1f;
+  }
+  .home-text03 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .home-text04 {
+    margin-right: 2rem;
+  }
+  .home-image {
+    width: 50px;
+    object-fit: cover;
+    margin-right: 14px;
+    border-radius: 0.8rem;
+  }
+  
+  .NavContent {
+    display: flex;
+    float: left;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:cursive;
+    border-radius: 1rem;
+  }
+  
+  .appName {
+    height: 100%;
+    font-family:fantasy;
+    border-radius: 1rem;
+  }
+  
+  .button-secondary {
+    border-color:burlywood;
+    margin-right: 1.5rem;
+    font-size: large;
+    background-color: burlywood;
+    color: #5d7c1f;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .button-primary {
+    border-color:burlywood;
+    margin-right: 1.5rem;
+    font-weight: 600;
+    font-size: large;
+    background-color: burlywood;
+    color: #5d7c1f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+  
+  .bodyWrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    height: 40rem;
+    background-image: url("../assets/bkg.png");
+  }
+  .sample {
+    background-size:contain;
+    background-position: center;
+    height:30rem;
+    width: 30rem;
+    background-repeat: no-repeat;
+    background-image: url("../assets/sample.png");
+  }
+  
+  .content1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    width: 50%;
+    margin-left: 15rem;
+    position: relative;
+    top: 200px;
+  }
+  
+  .features {
+    height: 35rem;
+    margin-top: 0px;
+    background-color: #ecb954;
+  
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  .features-heading {
+    color: #5d7c1f;
+    font-size: xx-large;
+    border: 5px;
+    border-color: #5d7c1f;
+  }
+  .content2 {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    text-align-last: center;
+    width: 50%;
+    font-size: x-large;
+    justify-content: space-between;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

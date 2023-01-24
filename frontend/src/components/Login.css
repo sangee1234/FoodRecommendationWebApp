@@ -1,0 +1,168 @@
+.page {
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-y;
+    height: 65rem;
+
+    background: url("../assets/icon.png"); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.note {
+    font-size: xx-large;
+    margin-top: 35rem;
+    width: 40rem;
+    margin-left: -10rem;
+}
+.card1 {
+    margin-left: 40%;
+    position: relative;
+    top: 5rem;
+    width: 24rem;
+    border: burlywood;
+    background-color:rgb(170, 198, 128);
+    border-radius: 0.2rem;
+    height: 35rem;
+}
+
+.headings {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+
+.login {
+    align-items: center;
+    margin-left: 5rem;
+    border: grey;
+    font-size: x-large;
+    margin-top: 1rem;
+}
+
+.signup {
+    align-items: center;
+    margin-left: 9rem;
+    border: grey;
+    font-size: x-large;
+    margin-top: 1rem;
+}
+
+  .container {
+      width: 100%;
+      padding-top: 60px;
+      padding-bottom: 100px;
+  }
+
+  .login-register {
+      height: 560px;
+      width: 500px;
+      margin-left: 70%;
+      margin-right: auto;
+      padding:0 2em;
+      border-radius: 5px;
+      box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+      overflow: hidden; 
+      background: linear-gradient(180deg, rgb(57, 99, 5) 0%, rgb(130, 198, 22) 58%, rgba(255,255,255,0.1407913507199755) 82%);
+      color:#ffffff;
+  }
+
+  /* Nav Buttons  */
+  .nav-buttons {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  button {
+      font-size: 1.5em;
+      margin-right:1em;
+      border:0px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      cursor: pointer;
+   
+  }
+  button:focus {
+      outline: 0px;
+  }
+  button.active {
+      padding-bottom: 10px;
+      border-bottom: solid 2px #87bf25;
+  } 
+  /* footer: forgot section */
+   #forgot {
+        position: relative;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 24px;
+        margin-top: -300px; 
+        border-top: solid 1px rgba(255,255,255,.3);    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* form styling */
+    .form-group input {
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background: rgba(255,255,255,.2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .form-group label {
+      text-transform: uppercase;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    input.submit {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1em;
+        text-align: center;
+        color: rgba(255,255,255, 1);
+        padding: 8px 0px;
+        width: 100%;
+        height: 35px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 23px;
+        background-color: rgb(96, 113, 67);
+    
+    }
+
+    /* form positioning and animation */
+    form, #forgot { 
+        position: relative;
+        transition: all .5s ease;
+    }
+    #loginBtn, #registerBtn {
+        transition: all .5s ease;
+
+    }
+    form#loginform {
+    left:0px;
+    top: -50px;
+    }
+ 
+    form#registerform {
+    left:500px;
+    top:-380px;
+    opacity: 0;;
+   } 
+
+   .btnFacebook { 
+    width: 205px;
+    height:35px;  
+    border-radius: 4px;
+    background: #3b5998;
+    color:white;
+    border:0px transparent;  
+    text-align: center;
+    margin:5px;
+    font-size: large;
+    display: inline-block;
+
+  }
