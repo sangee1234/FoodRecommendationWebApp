@@ -7,6 +7,8 @@ filtering. First the user rates few random items, and these are used with other 
 The frontend application is based on reactJS, and the backend application is a multithreaded Django Machine Learning application. The services are hosted in AWS. Specifically, the frontend code is hosted using s3 static web hosting and the django application runs in an EC2 instance.
 Security groups and bucket policies must be configured properly. Using an elastic IP could be useful.
 
+In case of hosting in cloud, remember to change server url in frontend.
+
 To execute the frontend in local, **npm start** could be used.
 For the backend application, **python manage.py** runserver would work.
 
