@@ -18,9 +18,7 @@ function AskPref() {
       }
     async function fetchfew() {
         try{
-            const url = "http://44.229.144.62:8000/samplerecipes";
-            //const url = "http://44.229.144.62:8000/samplerecipes";
-            //const url = "http://35.92.41.78:8000/samplerecipes/";
+            const url = "http://localhost:8000/samplerecipes";
             // const cacheStorage = await caches.open("cacheSample");
             // const cachedResponse = await cacheStorage.match(url);
 
