@@ -19,7 +19,7 @@ function TopFew() {
     async function fetchtop() {
         try{
             //console.log(state);
-            const response = await axios.post("http://44.229.144.62:8000/getrecommendations/",{data: { 
+            const response = await axios.post("http://localhost:8000/getrecommendations/",{data: { 
                 state
               }});
             console.log(response);
